@@ -90,12 +90,12 @@ public class PowerSetData {
         switch (choice) {
         case 0 : {
 
-                    PowerSet.powerSetImplementation1(myArray);
+                    PowerSet.powSetImpl1(myArray);
                     break;
 
                   }
         case 1 : {
-                    List<List<Integer>> ans = PowerSet.powerSetImplementation2(myArray);
+                    List<List<Integer>> ans = PowerSet.powSetImpl2(myArray);
 
                     for (List<Integer> item : ans) {
                         System.out.print("[ ");
@@ -109,7 +109,7 @@ public class PowerSetData {
                     break;
         }
         case 2 : {
-                    Set<Set<Integer>> ans = PowerSet.powerSetImplementation3(myArray);
+                    Set<Set<Integer>> ans = PowerSet.powSetImpl3(myArray);
 
                     for (Set<Integer> item : ans) {
                     System.out.print("[ ");
@@ -124,7 +124,7 @@ public class PowerSetData {
                             break;
                     }
         default:
-            List<List<Integer>> ans = PowerSet.powerSetImplementation2(myArray);
+            List<List<Integer>> ans = PowerSet.powSetImpl2(myArray);
 
                 for (List<Integer> item : ans) {
                 System.out.print("[ ");
