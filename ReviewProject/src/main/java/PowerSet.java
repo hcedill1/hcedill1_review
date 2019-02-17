@@ -26,7 +26,7 @@ public class PowerSet
      * @exception NullPointerException if <code>S</code> 
      * is not initialized
      */
-    public static void powerSetImplementation1(int[] S) throws NullPointerException
+    public static void powSetImpl1(int[] S) throws NullPointerException
     {
         if(S == null) {
         	throw new NullPointerException();
@@ -74,7 +74,7 @@ public class PowerSet
      * @exception NullPointerException if <code>S</code> 
      * is not initialized
      */
-    public static List<List<Integer>> powerSetImplementation2(int[] myArray) throws NullPointerException
+    public static List<List<Integer>> powSetImpl2(int[] myArray) throws NullPointerException
     {
 
         if (myArray == null) return null;
@@ -123,7 +123,7 @@ public class PowerSet
      * is not initialized
      */
     // implementation 3
-        public static Set<Set<Integer>> powerSetImplementation3(int[] S) 
+        public static Set<Set<Integer>> powSetImpl3(int[] S) 
         {
         	if(S == null) 
         	{
