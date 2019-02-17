@@ -9,11 +9,11 @@ import java.util.*;   // for class StringTokenizer
 
 public class PowerSetData {
 
-    public int[] myArray;
-    public String algo;
+    private int[] myArray;
+    private String algo;
 
     public PowerSetData(){
-        myArray = null;
+        this.myArray = null;
     }
 
 
